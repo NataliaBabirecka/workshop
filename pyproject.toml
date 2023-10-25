@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "workshop"
+version = "0.1.0"
+description = ""
+authors = ["Natalia Babirecka <natalia.babirecka@codelab.eu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.4.3"
+requests = "^2.31.0"
+pydantic = "^2.4.2"
+pydantic-settings = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
